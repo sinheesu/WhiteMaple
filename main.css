@@ -1,0 +1,26 @@
+body {
+  /* padding = 패딩,안감 */
+  padding: 0; 
+  /* margin = 마진, 본체 외부에 있는 것들 */
+  margin: 0;
+  /* height 100%, 100vh */
+  height: 100vh; 
+}
+
+#pl {
+  position: fixed;
+  left: 5%;
+  /* right: 10%; */
+  bottom: 5%;
+  /* top: 5%; */
+  color: #ffffff;
+  /* text-decoration: none; 텍스트쪽에 아무것도 꾸며져 있지 않다는 의미의 none */
+  text-decoration: none;
+  font-size: 2rem; 
+  /* font-size: 32px;/기본 기준 폰트는 16px. 1rem = 16px, 2rem = 32px */
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  /* z-index: 화면이 튀어나오는 효과 1;  */
+}
